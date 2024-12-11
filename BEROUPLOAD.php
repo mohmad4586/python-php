@@ -456,7 +456,7 @@ if($text and $UploadEr["المود"][$from_id] == "twsl") {
             ]);
   }
  
- $domin = "dev-hostbot.pantheonsite.io" ; #دومين استضافتك 
+ $domin = "https://github.com/mohmad4586/python-php/blob/main/BEROUPLOAD.php" ; #دومين استضافتك 
  if($update->message->document){
     $file_id = "https://api.telegram.org/file/bot".API_KEY."/".bot("getfile",["file_id"=>$update->message->document->file_id])->result->file_path;
     if(pathinfo($file_id, PATHINFO_EXTENSION) == "php"){
